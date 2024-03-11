@@ -21,17 +21,14 @@ class MainWindow(QMainWindow, Ui_MainWindow):
         self.commandLinkButton_4.clicked.connect(self.lk_to_bat_fun)
 
     def initcode_builder_fun(self):
-        # self.close()
         self.secondwindow = SceondWindow()
         self.secondwindow.show()
 
     def lk_to_kernel_fun(self):
-        # self.close()
         self.thirdwindow = ThirdWindow()
         self.thirdwindow.show()
 
     def shell_tools_fun(self):
-        # self.close()
         self.fourthwindow = controller_main()
         self.fourthwindow.show()
 
