@@ -36,7 +36,6 @@ class MainWindow(QMainWindow, Ui_MainWindow):
         self.fourthwindow.show()
 
     def lk_to_bat_fun(self):
-        # self.close()
         self.fifthwindow = FifthWindow()
         self.fifthwindow.show()
 
