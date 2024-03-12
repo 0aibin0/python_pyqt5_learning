@@ -1,8 +1,12 @@
+from PyQt5 import QtCore
 from PyQt5.QtWidgets import QMainWindow
 from ui_lk_to_kernel import Ui_MainWindow
+from PyQt5.QtCore import pyqtSignal
 
 
 class ThirdWindow(QMainWindow, Ui_MainWindow):
+    return_to_main = pyqtSignal()
+
     def __init__(self, parent=None):
         super(ThirdWindow, self).__init__(parent)
         self.setupUi(self)
@@ -14,7 +18,8 @@ class ThirdWindow(QMainWindow, Ui_MainWindow):
         self.textEdit_2.setPlaceholderText("generate kernel code (e.g. 1a 2b 3c 4d)")
 
         self.pushButton.clicked.connect(self.lk_to_kernel)
-        self.pushButton_2.clicked.connect(self.showmainwindow_3)
+        self.pushButton_2.clicked.connect(self.return_to_main.emit)
+        # self.pushButton_2.clicked.connect(self.showmainwindow_3)
 
     def lk_to_kernel(self):
         # 获取输入文本框中的文本
@@ -44,6 +49,5 @@ class ThirdWindow(QMainWindow, Ui_MainWindow):
             # 显示转换后的文本
         self.textEdit_2.setPlainText('\n'.join(output_lines))
 
-    def showmainwindow_3(self):
-        self.close()
-        # self.parent.show()
+    # def showmainwindow_3(self):
+    #     self.close()

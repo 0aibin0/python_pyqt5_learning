@@ -1,9 +1,13 @@
+from PyQt5 import QtCore
 from PyQt5.QtWidgets import QApplication, QMainWindow
 from PyQt5.QtWidgets import QMessageBox
 from ui_initcode_builder import Ui_MainWindow
+from PyQt5.QtCore import pyqtSignal
 
 
 class SceondWindow(QMainWindow, Ui_MainWindow):
+    return_to_main = pyqtSignal()
+
     def __init__(self, parent=None):
         super(SceondWindow, self).__init__(parent)
         self.setupUi(self)
@@ -18,7 +22,8 @@ class SceondWindow(QMainWindow, Ui_MainWindow):
         self.radioButton.toggled.connect(self.select_command)
 
         self.pushButton.clicked.connect(self.initcodebuilder)
-        self.pushButton_2.clicked.connect(self.showmainwindow_2)
+        self.pushButton_2.clicked.connect(self.return_to_main.emit)
+        # self.pushButton_2.clicked.connect(self.showmainwindow_2)
 
     def select_command(self):
         if self.radioButton.isChecked():
@@ -83,6 +88,6 @@ class SceondWindow(QMainWindow, Ui_MainWindow):
         output_str = '\n'.join(output_rows).lower()
         self.textEdit_2.setPlainText(output_str)
 
-    def showmainwindow_2(self):
-        self.close()
-        # self.parent.show()
+    # def showmainwindow_2(self):
+    #     self.close()
+

@@ -1,8 +1,11 @@
 from PyQt5.QtWidgets import QMainWindow
 from ui_lk_to_bat import Ui_MainWindow
+from PyQt5.QtCore import pyqtSignal
 
 
 class FifthWindow(QMainWindow, Ui_MainWindow):
+    return_to_main = pyqtSignal()
+
     def __init__(self, parent=None):
         super(FifthWindow, self).__init__(parent)
         self.setupUi(self)
@@ -15,7 +18,8 @@ class FifthWindow(QMainWindow, Ui_MainWindow):
                                            "/sys/class/display/dsi/dcs_write\")")
 
         self.pushButton.clicked.connect(self.lk_to_bat)
-        self.pushButton_2.clicked.connect(self.showmainwindow_4)
+        self.pushButton_2.clicked.connect(self.return_to_main.emit)
+        # self.pushButton_2.clicked.connect(self.showmainwindow_4)
 
     def lk_to_bat(self):
         # 获取输入文本框中的文本
@@ -55,5 +59,5 @@ class FifthWindow(QMainWindow, Ui_MainWindow):
         # 显示转换后的文本
         self.textEdit_2.setPlainText('\n'.join(output_lines))
 
-    def showmainwindow_4(self):
-        self.close()
+    # def showmainwindow_4(self):
+    #     self.close()
