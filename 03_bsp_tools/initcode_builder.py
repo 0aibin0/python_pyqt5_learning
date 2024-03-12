@@ -1,8 +1,8 @@
 from PyQt5 import QtCore
-from PyQt5.QtWidgets import QApplication, QMainWindow
+from PyQt5.QtWidgets import QApplication, QMainWindow, QLabel
 from PyQt5.QtWidgets import QMessageBox
 from ui_initcode_builder import Ui_MainWindow
-from PyQt5.QtCore import pyqtSignal
+from PyQt5.QtCore import pyqtSignal, QTimer, QDateTime
 
 
 class SceondWindow(QMainWindow, Ui_MainWindow):
@@ -18,12 +18,22 @@ class SceondWindow(QMainWindow, Ui_MainWindow):
         self.textEdit_2.setReadOnly(True)
         self.textEdit_2.setPlaceholderText("generate initcode \n(e.g. 0x39,0x00,0x00,0x04,0x1a,0x2b,0x3c,0x4d,)")
 
+        self.lab = QLabel("AIBIN", self)
+        self.statusBar.addPermanentWidget(self.lab)
+        self.timer = QTimer()
+        self.timer.timeout.connect(self.showTimeCurrent)
+        self.timer.start()
+
         self.radioButton.setChecked(True)
         self.radioButton.toggled.connect(self.select_command)
 
         self.pushButton.clicked.connect(self.initcodebuilder)
         self.pushButton_2.clicked.connect(self.return_to_main.emit)
-        # self.pushButton_2.clicked.connect(self.showmainwindow_2)
+
+    def showTimeCurrent(self):
+        d = QDateTime.currentDateTime()
+        text = d.toString("yyyy-MM-dd HH:mm:ss")
+        self.statusBar.showMessage(text, 0)
 
     def select_command(self):
         if self.radioButton.isChecked():
@@ -87,7 +97,4 @@ class SceondWindow(QMainWindow, Ui_MainWindow):
             # 输出为新的格式，每行以特定前缀和hex_count_hex开头，接着是原始十六进制数，每个元素用逗号隔开，且行尾也有逗号
         output_str = '\n'.join(output_rows).lower()
         self.textEdit_2.setPlainText(output_str)
-
-    # def showmainwindow_2(self):
-    #     self.close()
 

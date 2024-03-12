@@ -1,6 +1,6 @@
-from PyQt5.QtWidgets import QMainWindow
+from PyQt5.QtWidgets import QMainWindow, QLabel
 from ui_lk_to_bat import Ui_MainWindow
-from PyQt5.QtCore import pyqtSignal
+from PyQt5.QtCore import pyqtSignal, QTimer, QDateTime
 
 
 class FifthWindow(QMainWindow, Ui_MainWindow):
@@ -17,9 +17,19 @@ class FifthWindow(QMainWindow, Ui_MainWindow):
         self.textEdit_2.setPlaceholderText("generate bat code \n(e.g. adb shell echo \"0x01 > "
                                            "/sys/class/display/dsi/dcs_write\")")
 
+        self.lab = QLabel("AIBIN", self)
+        self.statusbar.addPermanentWidget(self.lab)
+        self.timer = QTimer()
+        self.timer.timeout.connect(self.showTimeCurrent)
+        self.timer.start()
+
         self.pushButton.clicked.connect(self.lk_to_bat)
         self.pushButton_2.clicked.connect(self.return_to_main.emit)
-        # self.pushButton_2.clicked.connect(self.showmainwindow_4)
+
+    def showTimeCurrent(self):
+        d = QDateTime.currentDateTime()
+        text = d.toString("yyyy-MM-dd HH:mm:ss")
+        self.statusbar.showMessage(text, 0)
 
     def lk_to_bat(self):
         # 获取输入文本框中的文本
@@ -58,6 +68,3 @@ class FifthWindow(QMainWindow, Ui_MainWindow):
         output_lines.append("pause")
         # 显示转换后的文本
         self.textEdit_2.setPlainText('\n'.join(output_lines))
-
-    # def showmainwindow_4(self):
-    #     self.close()
