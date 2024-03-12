@@ -14,7 +14,7 @@ from PyQt5 import QtCore, QtGui, QtWidgets
 class Ui_MainWindow(object):
     def setupUi(self, MainWindow):
         MainWindow.setObjectName("MainWindow")
-        MainWindow.resize(499, 457)
+        MainWindow.resize(496, 449)
         self.centralwidget = QtWidgets.QWidget(MainWindow)
         self.centralwidget.setObjectName("centralwidget")
         self.verticalLayoutWidget = QtWidgets.QWidget(self.centralwidget)
@@ -39,9 +39,12 @@ class Ui_MainWindow(object):
         self.label.setStyleSheet("")
         self.label.setObjectName("label")
         self.gridLayout.addWidget(self.label, 1, 0, 1, 1)
+        self.commandLinkButton_3 = QtWidgets.QCommandLinkButton(self.verticalLayoutWidget)
+        self.commandLinkButton_3.setObjectName("commandLinkButton_3")
+        self.gridLayout.addWidget(self.commandLinkButton_3, 5, 0, 1, 1)
         MainWindow.setCentralWidget(self.centralwidget)
         self.menubar = QtWidgets.QMenuBar(MainWindow)
-        self.menubar.setGeometry(QtCore.QRect(0, 0, 499, 21))
+        self.menubar.setGeometry(QtCore.QRect(0, 0, 496, 21))
         self.menubar.setObjectName("menubar")
         MainWindow.setMenuBar(self.menubar)
         self.statusbar = QtWidgets.QStatusBar(MainWindow)
@@ -58,3 +61,4 @@ class Ui_MainWindow(object):
         self.commandLinkButton_2.setText(_translate("MainWindow", "02_lk_to_kernel"))
         self.commandLinkButton.setText(_translate("MainWindow", "01_initcode_builder"))
         self.label.setText(_translate("MainWindow", " BSP_TOOLS"))
+        self.commandLinkButton_3.setText(_translate("MainWindow", "04_shell_tool"))

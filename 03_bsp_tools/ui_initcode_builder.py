@@ -62,7 +62,7 @@ class Ui_MainWindow(object):
         _translate = QtCore.QCoreApplication.translate
         MainWindow.setWindowTitle(_translate("MainWindow", "MainWindow"))
         self.pushButton.setText(_translate("MainWindow", "build"))
-        self.pushButton_2.setText(_translate("MainWindow", "返回"))
+        self.pushButton_2.setText(_translate("MainWindow", "返回主菜单"))
         self.groupBox.setTitle(_translate("MainWindow", "命令格式"))
         self.radioButton.setText(_translate("MainWindow", "DCS"))
         self.radioButton_2.setText(_translate("MainWindow", "GEN"))

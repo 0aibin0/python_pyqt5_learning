@@ -35,7 +35,7 @@
     <item row="2" column="0">
      <widget class="QPushButton" name="pushButton_2">
       <property name="text">
-       <string>返回</string>
+       <string>返回主菜单</string>
       </property>
      </widget>
     </item>

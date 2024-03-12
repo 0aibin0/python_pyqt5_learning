@@ -6,8 +6,8 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>499</width>
-    <height>457</height>
+    <width>496</width>
+    <height>449</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -60,6 +60,13 @@
        </property>
       </widget>
      </item>
+     <item row="5" column="0">
+      <widget class="QCommandLinkButton" name="commandLinkButton_3">
+       <property name="text">
+        <string>04_shell_tool</string>
+       </property>
+      </widget>
+     </item>
     </layout>
    </widget>
   </widget>
@@ -68,7 +75,7 @@
     <rect>
      <x>0</x>
      <y>0</y>
-     <width>499</width>
+     <width>496</width>
      <height>21</height>
     </rect>
    </property>

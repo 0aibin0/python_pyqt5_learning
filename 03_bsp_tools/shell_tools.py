@@ -8,9 +8,11 @@ import logging
 from openpyxl import load_workbook
 import time
 from ui_shell_tools import Ui_MainWindow
+from PyQt5.QtCore import pyqtSignal
 
 
 class controller_main(QMainWindow, Ui_MainWindow):
+    return_to_main = pyqtSignal()
 
     def __init__(self, parent=None):
 
@@ -34,6 +36,19 @@ class controller_main(QMainWindow, Ui_MainWindow):
         self.comboBox.addItem('自定义')
         self.comboBox.currentIndexChanged.connect(self.activated)
         self.cmdpath.setText(self.historycmd)
+        # xuebin.yin add
+        self.lab = QLabel("NIKE", self)
+        self.statusbar.addPermanentWidget(self.lab)
+        self.timer = QTimer()
+        self.timer.timeout.connect(self.showTimeCurrent)
+        self.timer.start()
+
+        self.pushButton.clicked.connect(self.return_to_main.emit)
+
+    def showTimeCurrent(self):
+        d = QDateTime.currentDateTime()
+        text = d.toString("yyyy-MM-dd HH:mm:ss")
+        self.statusbar.showMessage(text, 0)
 
     @pyqtSlot()
     def on_send_clicked(self):

@@ -37,7 +37,7 @@
       <item>
        <widget class="QPushButton" name="pushButton_2">
         <property name="text">
-         <string>返回</string>
+         <string>返回主菜单</string>
         </property>
        </widget>
       </item>
@@ -70,6 +70,9 @@
         <spacer name="verticalSpacer">
          <property name="orientation">
           <enum>Qt::Vertical</enum>
+         </property>
+         <property name="sizeType">
+          <enum>QSizePolicy::Expanding</enum>
          </property>
          <property name="sizeHint" stdset="0">
           <size>

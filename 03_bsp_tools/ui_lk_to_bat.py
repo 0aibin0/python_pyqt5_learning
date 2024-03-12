@@ -50,4 +50,4 @@ class Ui_MainWindow(object):
         _translate = QtCore.QCoreApplication.translate
         MainWindow.setWindowTitle(_translate("MainWindow", "MainWindow"))
         self.pushButton.setText(_translate("MainWindow", "lk_to_bat"))
-        self.pushButton_2.setText(_translate("MainWindow", "返回"))
+        self.pushButton_2.setText(_translate("MainWindow", "返回主菜单"))
