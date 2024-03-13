@@ -1,7 +1,7 @@
 import sys
 
 from PyQt5.QtCore import QTimer, QDateTime
-from PyQt5.QtWidgets import QApplication, QMainWindow, QLabel
+from PyQt5.QtWidgets import QApplication, QMainWindow, QLabel, QMessageBox
 
 from ui_mainwindow import Ui_MainWindow  # 主窗口
 from initcode_builder import SceondWindow  # 二窗口
@@ -39,6 +39,7 @@ class MainWindow(QMainWindow, Ui_MainWindow):
         self.secondwindow.return_to_main.connect(self.return_to_main_window_1)
         self.secondwindow.show()
         self.close()
+        QMessageBox.information(self, "提示", "默认是 dcs 格式转换", QMessageBox.Ok)
 
     def lk_to_kernel_fun(self):
         self.thirdwindow = ThirdWindow()

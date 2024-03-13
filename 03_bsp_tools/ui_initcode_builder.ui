@@ -6,8 +6,8 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>750</width>
-    <height>593</height>
+    <width>656</width>
+    <height>586</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -52,17 +52,17 @@
        <string>命令格式</string>
       </property>
       <layout class="QGridLayout" name="gridLayout_2">
-       <item row="0" column="0">
-        <widget class="QRadioButton" name="radioButton">
-         <property name="text">
-          <string>DCS</string>
-         </property>
-        </widget>
-       </item>
        <item row="1" column="0">
         <widget class="QRadioButton" name="radioButton_2">
          <property name="text">
           <string>GEN</string>
+         </property>
+        </widget>
+       </item>
+       <item row="0" column="0">
+        <widget class="QRadioButton" name="radioButton">
+         <property name="text">
+          <string>DCS</string>
          </property>
         </widget>
        </item>

@@ -1,6 +1,4 @@
-/*********************
-
-
+"""
 
 1，在子窗口中创建一个信号，并将信号触发与返回按钮绑定。（当按钮按下时，信号触发）
     return_to_main = QtCore.pyqtSignal()  # 定义一个信号
@@ -8,14 +6,15 @@
 2，在主函数中的打开子窗口函数中，将触发信号链接到槽函数
     self.child_window.return_to_main.connect(self.return_to_main_window)  # 连接子窗口信号到槽函数
 3，定义槽函数，关闭子窗口，显示主窗口
-        def return_to_main_window(self):
+    def return_to_main_window(self):
         self.child_window.close()  # 关闭子窗口
         self.show()  # 显示主窗口
 
+"""
 
-
-*********************/
 import sys
+
+from PyQt5 import QtCore
 from PyQt5.QtWidgets import QApplication, QMainWindow, QDialog, QPushButton
 
 
