@@ -9,6 +9,7 @@ from openpyxl import load_workbook
 import time
 from ui_shell_tools import Ui_MainWindow
 from PyQt5.QtCore import pyqtSignal
+import threading
 
 
 class controller_main(QMainWindow, Ui_MainWindow):
@@ -18,6 +19,8 @@ class controller_main(QMainWindow, Ui_MainWindow):
 
         super(controller_main, self).__init__(parent)
         self.setupUi(self)
+        self.parent = parent
+        self.setWindowTitle("shell_tools")
         self.cmdss = None
         self.paths = None
         self.splitsymbol = None
@@ -43,12 +46,45 @@ class controller_main(QMainWindow, Ui_MainWindow):
         self.timer.timeout.connect(self.showTimeCurrent)
         self.timer.start()
 
+        # self.root_thread = threading.Thread(target=self.root_fun())
+        # self.root_thread.start()
+        self.pushButton_2.clicked.connect(self.adbdevices_fun)
+        self.pushButton_3.clicked.connect(self.adbroot_fun)
+        self.pushButton_4.clicked.connect(self.adbreboot_fun)
+        self.pushButton_5.clicked.connect(self.ylog_fun)
         self.pushButton.clicked.connect(self.return_to_main.emit)
+
+        self.ylogpath.setPlaceholderText("默认路径为D:\Desktop\ylog")
 
     def showTimeCurrent(self):
         d = QDateTime.currentDateTime()
         text = d.toString("yyyy-MM-dd HH:mm:ss")
         self.statusbar.showMessage(text, 0)
+
+    def adbdevices_fun(self):
+        adbroot = 'adb devices'
+        result, out = self.run_command_line(adbroot)
+        self.textBrowser.setPlainText(str(result))
+        self.textBrowser.setPlainText(str(out))
+
+    def adbroot_fun(self):
+        adbdevices = 'adb root'
+        result, out = self.run_command_line(adbdevices)
+        self.textBrowser.setPlainText("adb root successfully")
+
+    def adbreboot_fun(self):
+        adbreboot = 'adb reboot'
+        result, out = self.run_command_line(adbreboot)
+        self.textBrowser.setPlainText("adb reboot successfully")
+
+    def ylog_fun(self):
+        ylogpath = self.ylogpath.text()
+        if not ylogpath.strip():
+            QMessageBox.information(self, "提示", "请填入ylog存储位置", QMessageBox.Ok)
+        else:
+            adbylog = "adb pull /data/ylog/ap D:\Desktop\ylog\\" + str(ylogpath)
+            result, out = self.run_command_line(adbylog)
+            self.textBrowser.setPlainText(f"ylog 导出路径为\nD:\Desktop\ylog\\{str(ylogpath)}")
 
     @pyqtSlot()
     def on_send_clicked(self):

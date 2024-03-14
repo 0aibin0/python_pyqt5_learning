@@ -11,7 +11,7 @@ class FifthWindow(QMainWindow, Ui_MainWindow):
         self.setupUi(self)
         self.parent = parent
 
-        self.setWindowTitle("lk_to_kernel")
+        self.setWindowTitle("lk_to_bat")
         self.textEdit.setPlaceholderText("Enter lk initcode (e.g. 0x--,0x--,0x--,0x--,0x--)")
         self.textEdit_2.setReadOnly(True)
         self.textEdit_2.setPlaceholderText("generate bat code \n(e.g. adb shell echo \"0x01 > "
