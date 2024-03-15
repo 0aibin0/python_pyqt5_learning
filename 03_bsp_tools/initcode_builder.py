@@ -1,4 +1,5 @@
 from PyQt5 import QtCore
+from PyQt5.QtGui import QIcon
 from PyQt5.QtWidgets import QApplication, QMainWindow, QLabel
 from PyQt5.QtWidgets import QMessageBox
 from ui_initcode_builder import Ui_MainWindow
@@ -14,6 +15,7 @@ class SceondWindow(QMainWindow, Ui_MainWindow):
         self.parent = parent
 
         self.setWindowTitle("initcode_builder")
+        self.setWindowIcon(QIcon('icon_img/转换.png'))
         self.textEdit.setPlaceholderText("Enter hex strings (e.g., 1A,2B,3C,4D)")
         self.textEdit_2.setReadOnly(True)
         self.textEdit_2.setPlaceholderText("generate initcode \n(e.g. 0x39,0x00,0x00,0x04,0x1a,0x2b,0x3c,0x4d,)")

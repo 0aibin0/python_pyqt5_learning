@@ -21,6 +21,7 @@ class controller_main(QMainWindow, Ui_MainWindow):
         self.setupUi(self)
         self.parent = parent
         self.setWindowTitle("shell_tools")
+        self.setWindowIcon(QIcon('icon_img/icon-tool.png'))
         self.cmdss = None
         self.paths = None
         self.splitsymbol = None

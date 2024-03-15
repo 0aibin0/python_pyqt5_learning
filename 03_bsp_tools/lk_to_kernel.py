@@ -1,4 +1,5 @@
 from PyQt5 import QtCore
+from PyQt5.QtGui import QIcon
 from PyQt5.QtWidgets import QMainWindow, QLabel
 from ui_lk_to_kernel import Ui_MainWindow
 from PyQt5.QtCore import pyqtSignal, QTimer, QDateTime
@@ -13,6 +14,7 @@ class ThirdWindow(QMainWindow, Ui_MainWindow):
         self.parent = parent
 
         self.setWindowTitle("lk_to_kernel")
+        self.setWindowIcon(QIcon('icon_img/转换.png'))
         self.textEdit.setPlaceholderText("Enter lk code (e.g. 0x1a,0x2b,0x3c,0x4d)")
         self.textEdit_2.setReadOnly(True)
         self.textEdit_2.setPlaceholderText("generate kernel code (e.g. 1a 2b 3c 4d)")

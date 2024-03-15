@@ -2,6 +2,7 @@ import sys
 
 from PyQt5.QtCore import QTimer, QDateTime
 from PyQt5.QtWidgets import QApplication, QMainWindow, QLabel, QMessageBox
+from PyQt5.QtGui import QIcon
 
 from ui_mainwindow import Ui_MainWindow  # 主窗口
 from initcode_builder import SceondWindow  # 二窗口
@@ -14,6 +15,8 @@ class MainWindow(QMainWindow, Ui_MainWindow):
     def __init__(self, parent=None):
         super(MainWindow, self).__init__(parent)
         self.setupUi(self)
+
+        self.setWindowIcon(QIcon('icon_img/classification.png'))
         # 初始化状态栏，添加时间与标签
         self.lab = QLabel("AIBIN", self)
         self.statusbar.addPermanentWidget(self.lab)

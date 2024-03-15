@@ -19,7 +19,7 @@
      <rect>
       <x>150</x>
       <y>70</y>
-      <width>190</width>
+      <width>201</width>
       <height>223</height>
      </rect>
     </property>
@@ -56,7 +56,7 @@
         <string notr="true"/>
        </property>
        <property name="text">
-        <string> BSP_TOOLS</string>
+        <string> LCM_TOOLS</string>
        </property>
       </widget>
      </item>
