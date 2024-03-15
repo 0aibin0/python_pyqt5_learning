@@ -52,6 +52,9 @@ class controller_main(QMainWindow, Ui_MainWindow):
         self.pushButton_3.clicked.connect(self.adbroot_fun)
         self.pushButton_4.clicked.connect(self.adbreboot_fun)
         self.pushButton_5.clicked.connect(self.ylog_fun)
+        self.pushButton_6.clicked.connect(self.lcmapkinstall)
+        self.pushButton_7.clicked.connect(self.adbrebootbootloader)
+        self.pushButton_8.clicked.connect(self.fastbootreboot)
         self.pushButton.clicked.connect(self.return_to_main.emit)
 
         self.ylogpath.setPlaceholderText("默认路径为D:\Desktop\ylog")
@@ -70,12 +73,20 @@ class controller_main(QMainWindow, Ui_MainWindow):
     def adbroot_fun(self):
         adbdevices = 'adb root'
         result, out = self.run_command_line(adbdevices)
-        self.textBrowser.setPlainText("adb root successfully")
+        self.textBrowser.setPlainText(str(out))
+        # self.textBrowser.setPlainText("adb root successfully")
 
     def adbreboot_fun(self):
         adbreboot = 'adb reboot'
         result, out = self.run_command_line(adbreboot)
+        # self.textBrowser.setPlainText(str(out))
         self.textBrowser.setPlainText("adb reboot successfully")
+
+    def lcmapkinstall(self):
+        lcmapk = 'adb install D:\\00_project\lcm_test_apk\Display-Tester.apk'
+        result, out = self.run_command_line(lcmapk)
+        self.textBrowser.setPlainText(str(out))
+        # self.textBrowser.setPlainText("adb install lcm_test apk successfully")
 
     def ylog_fun(self):
         ylogpath = self.ylogpath.text()
@@ -85,6 +96,18 @@ class controller_main(QMainWindow, Ui_MainWindow):
             adbylog = "adb pull /data/ylog/ap D:\Desktop\ylog\\" + str(ylogpath)
             result, out = self.run_command_line(adbylog)
             self.textBrowser.setPlainText(f"ylog 导出路径为\nD:\Desktop\ylog\\{str(ylogpath)}")
+
+    def adbrebootbootloader(self):
+        bootloader = 'adb reboot bootloader'
+        result, out = self.run_command_line(bootloader)
+        # self.textBrowser.setPlainText(str(out))
+        self.textBrowser.setPlainText("enter fastboot mode successfully")
+
+    def fastbootreboot(self):
+        bootloader_reboot = 'fastboot reboot'
+        result, out = self.run_command_line(bootloader_reboot)
+        self.textBrowser.setPlainText(str(out))
+        # self.textBrowser.setPlainText("adb install lcm_test apk successfully")
 
     @pyqtSlot()
     def on_send_clicked(self):
