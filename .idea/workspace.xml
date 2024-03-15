@@ -1,0 +1,372 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="b4b05767-0cc9-4187-82ac-c7523a6f397e" name="更改" comment="增加界面窗口ICON图标" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="PUSH_TAGS">
+      <GitPushTagMode>
+        <option name="argument" value="--tags" />
+        <option name="title" value="All" />
+      </GitPushTagMode>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="SWAP_SIDES_IN_COMPARE_BRANCHES" value="true" />
+    <option name="UPDATE_TYPE" value="REBASE" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;0aibin0&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="selectedUrlAndAccountId">
+      <UrlAndAccount>
+        <option name="accountId" value="481f24dd-e4e7-4729-8add-66346e0e0455" />
+        <option name="url" value="https://github.com/0aibin0/python_pyqt5_learning" />
+      </UrlAndAccount>
+    </option>
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/.venv/Lib/site-packages/pyecharts/charts/basic_charts/line.py" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/03_bsp_tools/mainwindow.py" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 5
+}</component>
+  <component name="ProjectId" id="2aTt8llNTLQKtDfXNiKBOoGO8tL" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "Python.02_list用法.executor": "Run",
+    "Python.04_字符串.executor": "Run",
+    "Python.05_集合.executor": "Run",
+    "Python.QTimer_test.executor": "Run",
+    "Python.backup0.executor": "Run",
+    "Python.baidu.executor": "Run",
+    "Python.bsp-tools.executor": "Run",
+    "Python.convert.executor": "Run",
+    "Python.convert_1.executor": "Run",
+    "Python.dialog_test.executor": "Run",
+    "Python.for_while_list.executor": "Run",
+    "Python.generate-initcode(dcs)-v1.0.executor": "Run",
+    "Python.generate-initcode(dcs)-v1.1.executor": "Run",
+    "Python.generate-initcode(gen)-v1.0.executor": "Run",
+    "Python.generate-initcode.executor": "Run",
+    "Python.hello.executor": "Run",
+    "Python.initcode-convert-tool-1.executor": "Run",
+    "Python.initcode-convert-tool-v1.0.executor": "Run",
+    "Python.initcode-convert-tool.executor": "Run",
+    "Python.initcode-to-bat-tool.executor": "Run",
+    "Python.lcm_generate_initcode.executor": "Run",
+    "Python.lcm_tools.executor": "Run",
+    "Python.lcm_tools_baidu-1.executor": "Run",
+    "Python.lcm_tools_baidu-2.executor": "Run",
+    "Python.line.executor": "Run",
+    "Python.lk_to_kernel.executor": "Run",
+    "Python.love.executor": "Run",
+    "Python.main.executor": "Run",
+    "Python.main_window.executor": "Run",
+    "Python.mainwindow.executor": "Run",
+    "Python.pyecharts_test.executor": "Run",
+    "Python.pyqt.executor": "Run",
+    "Python.q.executor": "Run",
+    "Python.qradiobox_test.executor": "Run",
+    "Python.secondwindow.executor": "Run",
+    "Python.shell-tool.executor": "Run",
+    "Python.shell_tools.executor": "Run",
+    "Python.socket_client.executor": "Run",
+    "Python.socket_server.executor": "Run",
+    "Python.socket_test.executor": "Run",
+    "Python.subwindow.executor": "Run",
+    "Python.test (1).executor": "Run",
+    "Python.test.executor": "Run",
+    "Python.test1.executor": "Run",
+    "Python.thread_test.executor": "Run",
+    "Python.子窗口返回父窗口调用方法.executor": "Run",
+    "Python.类和方法.executor": "Run",
+    "Python.黑马ATM.executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "ShowUsagesActions.previewPropertyKey": "true",
+    "deletionFromPopupRequiresConfirmation": "false",
+    "git-widget-placeholder": "master",
+    "last_opened_file_path": "D:/00_project/99_AIBIN/python/python-learn",
+    "settings.editor.selected.configurable": "preferences.pluginManager"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\00_project\99_AIBIN\python\python-learn\03_bsp_tools\icon_img" />
+      <recent name="D:\00_project\99_AIBIN\python\python-learn\03_bsp_tools" />
+      <recent name="D:\00_project\99_AIBIN\python\python-learn\image" />
+      <recent name="D:\00_project\99_AIBIN\python\python-learn\03_bsp_tools\dist" />
+      <recent name="D:\00_project\99_AIBIN\python\python-learn\98_pyqt5-learning" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\00_project\99_AIBIN\python\python-learn\03_bsp_tools\icon_img" />
+      <recent name="D:\00_project\99_AIBIN\python\python-learn\98_pyqt5-learning\12_QThread\gui" />
+      <recent name="D:\00_project\99_AIBIN\python\python-learn" />
+      <recent name="D:\00_project\99_AIBIN\python\python-learn\01_初识python" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Python.mainwindow">
+    <configuration name="backup0" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="python-learn" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/designer_ui" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/designer_ui/backup0.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="main" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="python-learn" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/98_pyqt5-learning/05_Qtimer" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/98_pyqt5-learning/05_Qtimer/main.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="mainwindow" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="python-learn" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/03_bsp_tools" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/03_bsp_tools/mainwindow.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.mainwindow" />
+        <item itemvalue="Python.main" />
+        <item itemvalue="Python.backup0" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-python-sdk-d68999036c7f-d3b881c8e49f-com.jetbrains.pycharm.community.sharedIndexes.bundled-PC-233.14475.56" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="应用程序级" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="默认任务">
+      <changelist id="b4b05767-0cc9-4187-82ac-c7523a6f397e" name="更改" comment="" />
+      <created>1704354239437</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1704354239437</updated>
+    </task>
+    <task id="LOCAL-00001" summary="add">
+      <option name="closed" value="true" />
+      <created>1710142175088</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1710142175088</updated>
+    </task>
+    <task id="LOCAL-00002" summary="add">
+      <option name="closed" value="true" />
+      <created>1710142426023</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1710142426023</updated>
+    </task>
+    <task id="LOCAL-00003" summary="删除多余的代码部分">
+      <option name="closed" value="true" />
+      <created>1710144521616</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1710144521616</updated>
+    </task>
+    <task id="LOCAL-00004" summary="增加子窗口返回主窗口的方法。">
+      <option name="closed" value="true" />
+      <created>1710211292628</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1710211292628</updated>
+    </task>
+    <task id="LOCAL-00005" summary="增加nike制作的shell_tools">
+      <option name="closed" value="true" />
+      <created>1710224273324</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1710224273324</updated>
+    </task>
+    <task id="LOCAL-00006" summary="去除无用的code">
+      <option name="closed" value="true" />
+      <created>1710224687999</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1710224687999</updated>
+    </task>
+    <task id="LOCAL-00007" summary="增加dcs格式和gen格式转化的选择">
+      <option name="closed" value="true" />
+      <created>1710317220614</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1710317220614</updated>
+    </task>
+    <task id="LOCAL-00008" summary="优化ui界面">
+      <option name="closed" value="true" />
+      <created>1710317282049</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1710317282049</updated>
+    </task>
+    <task id="LOCAL-00009" summary="优化ui界面">
+      <option name="closed" value="true" />
+      <created>1710398619083</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1710398619083</updated>
+    </task>
+    <task id="LOCAL-00010" summary="优化ui界面">
+      <option name="closed" value="true" />
+      <created>1710485874868</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1710485874868</updated>
+    </task>
+    <task id="LOCAL-00011" summary="增加界面窗口ICON图标显示">
+      <option name="closed" value="true" />
+      <created>1710495294389</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1710495294389</updated>
+    </task>
+    <task id="LOCAL-00012" summary="增加界面窗口ICON图标">
+      <option name="closed" value="true" />
+      <created>1710496759757</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1710496759757</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="CUSTOM_BOOLEAN_PROPERTIES">
+                <map>
+                  <entry key="Show.Git.Branches" value="true" />
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="add" />
+    <MESSAGE value="删除多余的代码部分" />
+    <MESSAGE value="增加子窗口返回主窗口的方法。" />
+    <MESSAGE value="增加nike制作的shell_tools" />
+    <MESSAGE value="去除无用的code" />
+    <MESSAGE value="增加dcs格式和gen格式转化的选择" />
+    <MESSAGE value="优化ui界面" />
+    <MESSAGE value="增加界面窗口ICON图标显示" />
+    <MESSAGE value="增加界面窗口ICON图标" />
+    <option name="LAST_COMMIT_MESSAGE" value="增加界面窗口ICON图标" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/../python-课程代码/python-learn/11_醱砃勤砓/杅擂煦昴偶瞰/file_define.py</url>
+          <line>3</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
