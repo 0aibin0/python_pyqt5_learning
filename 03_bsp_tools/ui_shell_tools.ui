@@ -284,7 +284,7 @@
        <x>10</x>
        <y>20</y>
        <width>81</width>
-       <height>151</height>
+       <height>181</height>
       </rect>
      </property>
      <layout class="QVBoxLayout" name="verticalLayout_2">
@@ -313,6 +313,13 @@
        <widget class="QPushButton" name="pushButton_5">
         <property name="text">
          <string>ylog</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QPushButton" name="pushButton_9">
+        <property name="text">
+         <string>apk_unlock</string>
         </property>
        </widget>
       </item>

@@ -46,6 +46,9 @@ class SceondWindow(QMainWindow, Ui_MainWindow):
             self.pushButton.clicked.connect(self.initcodebuilder_gen)
 
     def initcodebuilder_dcs(self):
+        # 如果文本框为空，则不进行处理
+        if not self.textEdit:
+            return
         input_str = self.textEdit.toPlainText()
 
         # 判断输入字符是否包含"REGISTER"，如果有，则提前删除

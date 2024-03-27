@@ -38,7 +38,7 @@ class MainWindow(QMainWindow, Ui_MainWindow):
         self.fileD = QFileDialog.getExistingDirectory(None, "选择文件夹路径", os.getcwd())
         self.lineEdit_2.setText(self.fileD)
         self.list = os.listdir(self.fileD)
-
+        self.listWidget.clear()
         self.listWidget.addItems(self.list)
 
 

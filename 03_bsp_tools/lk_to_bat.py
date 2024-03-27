@@ -34,6 +34,9 @@ class FifthWindow(QMainWindow, Ui_MainWindow):
         self.statusbar.showMessage(text, 0)
 
     def lk_to_bat(self):
+        # 如果文本框为空，则不进行处理
+        if not self.textEdit:
+            return
         # 获取输入文本框中的文本
         self.textEdit = self.textEdit.toPlainText()
         # 按行分割文本

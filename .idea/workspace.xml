@@ -4,7 +4,158 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b4b05767-0cc9-4187-82ac-c7523a6f397e" name="更改" comment="增加界面窗口ICON图标" />
+    <list default="true" id="b4b05767-0cc9-4187-82ac-c7523a6f397e" name="更改" comment="12">
+      <change afterPath="$PROJECT_DIR$/03_bsp_tools/build/mainwindow/Analysis-00.toc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/03_bsp_tools/build/mainwindow/COLLECT-00.toc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/03_bsp_tools/build/mainwindow/EXE-00.toc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/03_bsp_tools/build/mainwindow/PKG-00.toc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/03_bsp_tools/build/mainwindow/PYZ-00.pyz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/03_bsp_tools/build/mainwindow/PYZ-00.toc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/03_bsp_tools/build/mainwindow/base_library.zip" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/03_bsp_tools/build/mainwindow/mainwindow.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/03_bsp_tools/build/mainwindow/mainwindow.pkg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/03_bsp_tools/build/mainwindow/warn-mainwindow.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/03_bsp_tools/build/mainwindow/xref-mainwindow.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/03_bsp_tools/dist/mainwindow/_internal/PyQt5/Qt5/bin/MSVCP140.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/03_bsp_tools/dist/mainwindow/_internal/PyQt5/Qt5/bin/MSVCP140_1.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/03_bsp_tools/dist/mainwindow/_internal/PyQt5/Qt5/bin/Qt5Core.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/03_bsp_tools/dist/mainwindow/_internal/PyQt5/Qt5/bin/Qt5DBus.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/03_bsp_tools/dist/mainwindow/_internal/PyQt5/Qt5/bin/Qt5Gui.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/03_bsp_tools/dist/mainwindow/_internal/PyQt5/Qt5/bin/Qt5Network.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/03_bsp_tools/dist/mainwindow/_internal/PyQt5/Qt5/bin/Qt5Qml.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/03_bsp_tools/dist/mainwindow/_internal/PyQt5/Qt5/bin/Qt5QmlModels.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/03_bsp_tools/dist/mainwindow/_internal/PyQt5/Qt5/bin/Qt5Quick.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/03_bsp_tools/dist/mainwindow/_internal/PyQt5/Qt5/bin/Qt5Svg.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/03_bsp_tools/dist/mainwindow/_internal/PyQt5/Qt5/bin/Qt5WebSockets.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/03_bsp_tools/dist/mainwindow/_internal/PyQt5/Qt5/bin/Qt5Widgets.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/03_bsp_tools/dist/mainwindow/_internal/PyQt5/Qt5/bin/VCRUNTIME140.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/03_bsp_tools/dist/mainwindow/_internal/PyQt5/Qt5/bin/VCRUNTIME140_1.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/03_bsp_tools/dist/mainwindow/_internal/PyQt5/Qt5/bin/d3dcompiler_47.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/03_bsp_tools/dist/mainwindow/_internal/PyQt5/Qt5/bin/libEGL.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/03_bsp_tools/dist/mainwindow/_internal/PyQt5/Qt5/bin/libGLESv2.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/03_bsp_tools/dist/mainwindow/_internal/PyQt5/Qt5/bin/opengl32sw.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/03_bsp_tools/dist/mainwindow/_internal/PyQt5/Qt5/plugins/generic/qtuiotouchplugin.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/03_bsp_tools/dist/mainwindow/_internal/PyQt5/Qt5/plugins/iconengines/qsvgicon.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/03_bsp_tools/dist/mainwindow/_internal/PyQt5/Qt5/plugins/imageformats/qgif.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/03_bsp_tools/dist/mainwindow/_internal/PyQt5/Qt5/plugins/imageformats/qicns.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/03_bsp_tools/dist/mainwindow/_internal/PyQt5/Qt5/plugins/imageformats/qico.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/03_bsp_tools/dist/mainwindow/_internal/PyQt5/Qt5/plugins/imageformats/qjpeg.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/03_bsp_tools/dist/mainwindow/_internal/PyQt5/Qt5/plugins/imageformats/qsvg.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/03_bsp_tools/dist/mainwindow/_internal/PyQt5/Qt5/plugins/imageformats/qtga.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/03_bsp_tools/dist/mainwindow/_internal/PyQt5/Qt5/plugins/imageformats/qtiff.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/03_bsp_tools/dist/mainwindow/_internal/PyQt5/Qt5/plugins/imageformats/qwbmp.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/03_bsp_tools/dist/mainwindow/_internal/PyQt5/Qt5/plugins/imageformats/qwebp.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/03_bsp_tools/dist/mainwindow/_internal/PyQt5/Qt5/plugins/platforms/qminimal.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/03_bsp_tools/dist/mainwindow/_internal/PyQt5/Qt5/plugins/platforms/qoffscreen.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/03_bsp_tools/dist/mainwindow/_internal/PyQt5/Qt5/plugins/platforms/qwebgl.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/03_bsp_tools/dist/mainwindow/_internal/PyQt5/Qt5/plugins/platforms/qwindows.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/03_bsp_tools/dist/mainwindow/_internal/PyQt5/Qt5/plugins/platformthemes/qxdgdesktopportal.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/03_bsp_tools/dist/mainwindow/_internal/PyQt5/Qt5/plugins/styles/qwindowsvistastyle.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/03_bsp_tools/dist/mainwindow/_internal/PyQt5/Qt5/translations/qt_ar.qm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/03_bsp_tools/dist/mainwindow/_internal/PyQt5/Qt5/translations/qt_bg.qm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/03_bsp_tools/dist/mainwindow/_internal/PyQt5/Qt5/translations/qt_ca.qm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/03_bsp_tools/dist/mainwindow/_internal/PyQt5/Qt5/translations/qt_cs.qm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/03_bsp_tools/dist/mainwindow/_internal/PyQt5/Qt5/translations/qt_da.qm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/03_bsp_tools/dist/mainwindow/_internal/PyQt5/Qt5/translations/qt_de.qm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/03_bsp_tools/dist/mainwindow/_internal/PyQt5/Qt5/translations/qt_en.qm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/03_bsp_tools/dist/mainwindow/_internal/PyQt5/Qt5/translations/qt_es.qm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/03_bsp_tools/dist/mainwindow/_internal/PyQt5/Qt5/translations/qt_fa.qm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/03_bsp_tools/dist/mainwindow/_internal/PyQt5/Qt5/translations/qt_fi.qm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/03_bsp_tools/dist/mainwindow/_internal/PyQt5/Qt5/translations/qt_fr.qm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/03_bsp_tools/dist/mainwindow/_internal/PyQt5/Qt5/translations/qt_gd.qm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/03_bsp_tools/dist/mainwindow/_internal/PyQt5/Qt5/translations/qt_gl.qm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/03_bsp_tools/dist/mainwindow/_internal/PyQt5/Qt5/translations/qt_he.qm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/03_bsp_tools/dist/mainwindow/_internal/PyQt5/Qt5/translations/qt_help_ar.qm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/03_bsp_tools/dist/mainwindow/_internal/PyQt5/Qt5/translations/qt_help_bg.qm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/03_bsp_tools/dist/mainwindow/_internal/PyQt5/Qt5/translations/qt_help_ca.qm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/03_bsp_tools/dist/mainwindow/_internal/PyQt5/Qt5/translations/qt_help_cs.qm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/03_bsp_tools/dist/mainwindow/_internal/PyQt5/Qt5/translations/qt_help_da.qm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/03_bsp_tools/dist/mainwindow/_internal/PyQt5/Qt5/translations/qt_help_de.qm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/03_bsp_tools/dist/mainwindow/_internal/PyQt5/Qt5/translations/qt_help_en.qm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/03_bsp_tools/dist/mainwindow/_internal/PyQt5/Qt5/translations/qt_help_es.qm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/03_bsp_tools/dist/mainwindow/_internal/PyQt5/Qt5/translations/qt_help_fr.qm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/03_bsp_tools/dist/mainwindow/_internal/PyQt5/Qt5/translations/qt_help_gl.qm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/03_bsp_tools/dist/mainwindow/_internal/PyQt5/Qt5/translations/qt_help_hu.qm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/03_bsp_tools/dist/mainwindow/_internal/PyQt5/Qt5/translations/qt_help_it.qm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/03_bsp_tools/dist/mainwindow/_internal/PyQt5/Qt5/translations/qt_help_ja.qm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/03_bsp_tools/dist/mainwindow/_internal/PyQt5/Qt5/translations/qt_help_ko.qm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/03_bsp_tools/dist/mainwindow/_internal/PyQt5/Qt5/translations/qt_help_pl.qm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/03_bsp_tools/dist/mainwindow/_internal/PyQt5/Qt5/translations/qt_help_ru.qm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/03_bsp_tools/dist/mainwindow/_internal/PyQt5/Qt5/translations/qt_help_sk.qm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/03_bsp_tools/dist/mainwindow/_internal/PyQt5/Qt5/translations/qt_help_sl.qm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/03_bsp_tools/dist/mainwindow/_internal/PyQt5/Qt5/translations/qt_help_tr.qm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/03_bsp_tools/dist/mainwindow/_internal/PyQt5/Qt5/translations/qt_help_uk.qm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/03_bsp_tools/dist/mainwindow/_internal/PyQt5/Qt5/translations/qt_help_zh_CN.qm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/03_bsp_tools/dist/mainwindow/_internal/PyQt5/Qt5/translations/qt_help_zh_TW.qm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/03_bsp_tools/dist/mainwindow/_internal/PyQt5/Qt5/translations/qt_hu.qm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/03_bsp_tools/dist/mainwindow/_internal/PyQt5/Qt5/translations/qt_it.qm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/03_bsp_tools/dist/mainwindow/_internal/PyQt5/Qt5/translations/qt_ja.qm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/03_bsp_tools/dist/mainwindow/_internal/PyQt5/Qt5/translations/qt_ko.qm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/03_bsp_tools/dist/mainwindow/_internal/PyQt5/Qt5/translations/qt_lt.qm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/03_bsp_tools/dist/mainwindow/_internal/PyQt5/Qt5/translations/qt_lv.qm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/03_bsp_tools/dist/mainwindow/_internal/PyQt5/Qt5/translations/qt_pl.qm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/03_bsp_tools/dist/mainwindow/_internal/PyQt5/Qt5/translations/qt_pt.qm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/03_bsp_tools/dist/mainwindow/_internal/PyQt5/Qt5/translations/qt_ru.qm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/03_bsp_tools/dist/mainwindow/_internal/PyQt5/Qt5/translations/qt_sk.qm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/03_bsp_tools/dist/mainwindow/_internal/PyQt5/Qt5/translations/qt_sl.qm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/03_bsp_tools/dist/mainwindow/_internal/PyQt5/Qt5/translations/qt_sv.qm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/03_bsp_tools/dist/mainwindow/_internal/PyQt5/Qt5/translations/qt_tr.qm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/03_bsp_tools/dist/mainwindow/_internal/PyQt5/Qt5/translations/qt_uk.qm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/03_bsp_tools/dist/mainwindow/_internal/PyQt5/Qt5/translations/qt_zh_CN.qm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/03_bsp_tools/dist/mainwindow/_internal/PyQt5/Qt5/translations/qt_zh_TW.qm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/03_bsp_tools/dist/mainwindow/_internal/PyQt5/Qt5/translations/qtbase_ar.qm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/03_bsp_tools/dist/mainwindow/_internal/PyQt5/Qt5/translations/qtbase_bg.qm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/03_bsp_tools/dist/mainwindow/_internal/PyQt5/Qt5/translations/qtbase_ca.qm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/03_bsp_tools/dist/mainwindow/_internal/PyQt5/Qt5/translations/qtbase_cs.qm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/03_bsp_tools/dist/mainwindow/_internal/PyQt5/Qt5/translations/qtbase_da.qm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/03_bsp_tools/dist/mainwindow/_internal/PyQt5/Qt5/translations/qtbase_de.qm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/03_bsp_tools/dist/mainwindow/_internal/PyQt5/Qt5/translations/qtbase_en.qm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/03_bsp_tools/dist/mainwindow/_internal/PyQt5/Qt5/translations/qtbase_es.qm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/03_bsp_tools/dist/mainwindow/_internal/PyQt5/Qt5/translations/qtbase_fi.qm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/03_bsp_tools/dist/mainwindow/_internal/PyQt5/Qt5/translations/qtbase_fr.qm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/03_bsp_tools/dist/mainwindow/_internal/PyQt5/Qt5/translations/qtbase_gd.qm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/03_bsp_tools/dist/mainwindow/_internal/PyQt5/Qt5/translations/qtbase_he.qm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/03_bsp_tools/dist/mainwindow/_internal/PyQt5/Qt5/translations/qtbase_hu.qm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/03_bsp_tools/dist/mainwindow/_internal/PyQt5/Qt5/translations/qtbase_it.qm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/03_bsp_tools/dist/mainwindow/_internal/PyQt5/Qt5/translations/qtbase_ja.qm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/03_bsp_tools/dist/mainwindow/_internal/PyQt5/Qt5/translations/qtbase_ko.qm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/03_bsp_tools/dist/mainwindow/_internal/PyQt5/Qt5/translations/qtbase_lv.qm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/03_bsp_tools/dist/mainwindow/_internal/PyQt5/Qt5/translations/qtbase_pl.qm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/03_bsp_tools/dist/mainwindow/_internal/PyQt5/Qt5/translations/qtbase_ru.qm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/03_bsp_tools/dist/mainwindow/_internal/PyQt5/Qt5/translations/qtbase_sk.qm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/03_bsp_tools/dist/mainwindow/_internal/PyQt5/Qt5/translations/qtbase_tr.qm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/03_bsp_tools/dist/mainwindow/_internal/PyQt5/Qt5/translations/qtbase_uk.qm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/03_bsp_tools/dist/mainwindow/_internal/PyQt5/Qt5/translations/qtbase_zh_TW.qm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/03_bsp_tools/dist/mainwindow/_internal/PyQt5/QtCore.pyd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/03_bsp_tools/dist/mainwindow/_internal/PyQt5/QtGui.pyd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/03_bsp_tools/dist/mainwindow/_internal/PyQt5/QtWidgets.pyd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/03_bsp_tools/dist/mainwindow/_internal/PyQt5/sip.cp311-win_amd64.pyd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/03_bsp_tools/dist/mainwindow/_internal/VCRUNTIME140.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/03_bsp_tools/dist/mainwindow/_internal/VCRUNTIME140_1.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/03_bsp_tools/dist/mainwindow/_internal/_bz2.pyd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/03_bsp_tools/dist/mainwindow/_internal/_decimal.pyd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/03_bsp_tools/dist/mainwindow/_internal/_hashlib.pyd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/03_bsp_tools/dist/mainwindow/_internal/_lzma.pyd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/03_bsp_tools/dist/mainwindow/_internal/_socket.pyd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/03_bsp_tools/dist/mainwindow/_internal/base_library.zip" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/03_bsp_tools/dist/mainwindow/_internal/libcrypto-1_1.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/03_bsp_tools/dist/mainwindow/_internal/python3.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/03_bsp_tools/dist/mainwindow/_internal/python311.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/03_bsp_tools/dist/mainwindow/_internal/select.pyd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/03_bsp_tools/dist/mainwindow/_internal/unicodedata.pyd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/03_bsp_tools/dist/mainwindow/mainwindow.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/03_bsp_tools/icon_img/main.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/03_bsp_tools/script/png_to_ico.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/03_bsp_tools/dist/icon-data-model.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/03_bsp_tools/dist/mainwindow.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/03_bsp_tools/initcode_builder.py" beforeDir="false" afterPath="$PROJECT_DIR$/03_bsp_tools/initcode_builder.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/03_bsp_tools/lk_to_bat.py" beforeDir="false" afterPath="$PROJECT_DIR$/03_bsp_tools/lk_to_bat.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/03_bsp_tools/lk_to_kernel.py" beforeDir="false" afterPath="$PROJECT_DIR$/03_bsp_tools/lk_to_kernel.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/03_bsp_tools/mainwindow.spec" beforeDir="false" afterPath="$PROJECT_DIR$/03_bsp_tools/mainwindow.spec" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/03_bsp_tools/ui_shell_tools.ui" beforeDir="false" afterPath="$PROJECT_DIR$/03_bsp_tools/ui_shell_tools.ui" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/designer_ui/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/designer_ui/main.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -16,6 +167,9 @@
         <option value="Python Script" />
       </list>
     </option>
+  </component>
+  <component name="Git.Rebase.Settings">
+    <option name="NEW_BASE" value="origin/master" />
   </component>
   <component name="Git.Settings">
     <option name="PUSH_TAGS">
@@ -63,70 +217,71 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "Python.02_list用法.executor": "Run",
-    "Python.04_字符串.executor": "Run",
-    "Python.05_集合.executor": "Run",
-    "Python.QTimer_test.executor": "Run",
-    "Python.backup0.executor": "Run",
-    "Python.baidu.executor": "Run",
-    "Python.bsp-tools.executor": "Run",
-    "Python.convert.executor": "Run",
-    "Python.convert_1.executor": "Run",
-    "Python.dialog_test.executor": "Run",
-    "Python.for_while_list.executor": "Run",
-    "Python.generate-initcode(dcs)-v1.0.executor": "Run",
-    "Python.generate-initcode(dcs)-v1.1.executor": "Run",
-    "Python.generate-initcode(gen)-v1.0.executor": "Run",
-    "Python.generate-initcode.executor": "Run",
-    "Python.hello.executor": "Run",
-    "Python.initcode-convert-tool-1.executor": "Run",
-    "Python.initcode-convert-tool-v1.0.executor": "Run",
-    "Python.initcode-convert-tool.executor": "Run",
-    "Python.initcode-to-bat-tool.executor": "Run",
-    "Python.lcm_generate_initcode.executor": "Run",
-    "Python.lcm_tools.executor": "Run",
-    "Python.lcm_tools_baidu-1.executor": "Run",
-    "Python.lcm_tools_baidu-2.executor": "Run",
-    "Python.line.executor": "Run",
-    "Python.lk_to_kernel.executor": "Run",
-    "Python.love.executor": "Run",
-    "Python.main.executor": "Run",
-    "Python.main_window.executor": "Run",
-    "Python.mainwindow.executor": "Run",
-    "Python.pyecharts_test.executor": "Run",
-    "Python.pyqt.executor": "Run",
-    "Python.q.executor": "Run",
-    "Python.qradiobox_test.executor": "Run",
-    "Python.secondwindow.executor": "Run",
-    "Python.shell-tool.executor": "Run",
-    "Python.shell_tools.executor": "Run",
-    "Python.socket_client.executor": "Run",
-    "Python.socket_server.executor": "Run",
-    "Python.socket_test.executor": "Run",
-    "Python.subwindow.executor": "Run",
-    "Python.test (1).executor": "Run",
-    "Python.test.executor": "Run",
-    "Python.test1.executor": "Run",
-    "Python.thread_test.executor": "Run",
-    "Python.子窗口返回父窗口调用方法.executor": "Run",
-    "Python.类和方法.executor": "Run",
-    "Python.黑马ATM.executor": "Run",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "ShowUsagesActions.previewPropertyKey": "true",
-    "deletionFromPopupRequiresConfirmation": "false",
-    "git-widget-placeholder": "master",
-    "last_opened_file_path": "D:/00_project/99_AIBIN/python/python-learn",
-    "settings.editor.selected.configurable": "preferences.pluginManager"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;Python.02_list用法.executor&quot;: &quot;Run&quot;,
+    &quot;Python.04_字符串.executor&quot;: &quot;Run&quot;,
+    &quot;Python.05_集合.executor&quot;: &quot;Run&quot;,
+    &quot;Python.QTimer_test.executor&quot;: &quot;Run&quot;,
+    &quot;Python.backup0.executor&quot;: &quot;Run&quot;,
+    &quot;Python.baidu.executor&quot;: &quot;Run&quot;,
+    &quot;Python.bsp-tools.executor&quot;: &quot;Run&quot;,
+    &quot;Python.convert.executor&quot;: &quot;Run&quot;,
+    &quot;Python.convert_1.executor&quot;: &quot;Run&quot;,
+    &quot;Python.dialog_test.executor&quot;: &quot;Run&quot;,
+    &quot;Python.for_while_list.executor&quot;: &quot;Run&quot;,
+    &quot;Python.generate-initcode(dcs)-v1.0.executor&quot;: &quot;Run&quot;,
+    &quot;Python.generate-initcode(dcs)-v1.1.executor&quot;: &quot;Run&quot;,
+    &quot;Python.generate-initcode(gen)-v1.0.executor&quot;: &quot;Run&quot;,
+    &quot;Python.generate-initcode.executor&quot;: &quot;Run&quot;,
+    &quot;Python.hello.executor&quot;: &quot;Run&quot;,
+    &quot;Python.initcode-convert-tool-1.executor&quot;: &quot;Run&quot;,
+    &quot;Python.initcode-convert-tool-v1.0.executor&quot;: &quot;Run&quot;,
+    &quot;Python.initcode-convert-tool.executor&quot;: &quot;Run&quot;,
+    &quot;Python.initcode-to-bat-tool.executor&quot;: &quot;Run&quot;,
+    &quot;Python.lcm_generate_initcode.executor&quot;: &quot;Run&quot;,
+    &quot;Python.lcm_tools.executor&quot;: &quot;Run&quot;,
+    &quot;Python.lcm_tools_baidu-1.executor&quot;: &quot;Run&quot;,
+    &quot;Python.lcm_tools_baidu-2.executor&quot;: &quot;Run&quot;,
+    &quot;Python.line.executor&quot;: &quot;Run&quot;,
+    &quot;Python.lk_to_kernel.executor&quot;: &quot;Run&quot;,
+    &quot;Python.love.executor&quot;: &quot;Run&quot;,
+    &quot;Python.main.executor&quot;: &quot;Run&quot;,
+    &quot;Python.main_window.executor&quot;: &quot;Run&quot;,
+    &quot;Python.mainwindow.executor&quot;: &quot;Run&quot;,
+    &quot;Python.pyecharts_test.executor&quot;: &quot;Run&quot;,
+    &quot;Python.pyqt.executor&quot;: &quot;Run&quot;,
+    &quot;Python.q.executor&quot;: &quot;Run&quot;,
+    &quot;Python.qradiobox_test.executor&quot;: &quot;Run&quot;,
+    &quot;Python.secondwindow.executor&quot;: &quot;Run&quot;,
+    &quot;Python.shell-tool.executor&quot;: &quot;Run&quot;,
+    &quot;Python.shell_tools.executor&quot;: &quot;Run&quot;,
+    &quot;Python.socket_client.executor&quot;: &quot;Run&quot;,
+    &quot;Python.socket_server.executor&quot;: &quot;Run&quot;,
+    &quot;Python.socket_test.executor&quot;: &quot;Run&quot;,
+    &quot;Python.subwindow.executor&quot;: &quot;Run&quot;,
+    &quot;Python.test (1).executor&quot;: &quot;Run&quot;,
+    &quot;Python.test.executor&quot;: &quot;Run&quot;,
+    &quot;Python.test1.executor&quot;: &quot;Run&quot;,
+    &quot;Python.thread_test.executor&quot;: &quot;Run&quot;,
+    &quot;Python.子窗口返回父窗口调用方法.executor&quot;: &quot;Run&quot;,
+    &quot;Python.类和方法.executor&quot;: &quot;Run&quot;,
+    &quot;Python.黑马ATM.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;ShowUsagesActions.previewPropertyKey&quot;: &quot;true&quot;,
+    &quot;deletionFromPopupRequiresConfirmation&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/00_project/99_AIBIN/python/python-learn/03_bsp_tools&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\00_project\99_AIBIN\python\python-learn\03_bsp_tools\icon_img" />
       <recent name="D:\00_project\99_AIBIN\python\python-learn\03_bsp_tools" />
+      <recent name="D:\00_project\99_AIBIN\python\python-learn\03_bsp_tools\icon_img" />
       <recent name="D:\00_project\99_AIBIN\python\python-learn\image" />
       <recent name="D:\00_project\99_AIBIN\python\python-learn\03_bsp_tools\dist" />
       <recent name="D:\00_project\99_AIBIN\python\python-learn\98_pyqt5-learning" />
@@ -138,7 +293,7 @@
       <recent name="D:\00_project\99_AIBIN\python\python-learn\01_初识python" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.mainwindow">
+  <component name="RunManager">
     <configuration name="backup0" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="python-learn" />
       <option name="ENV_FILES" value="" />
@@ -325,7 +480,15 @@
       <option name="project" value="LOCAL" />
       <updated>1710496759757</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="12">
+      <option name="closed" value="true" />
+      <created>1710497218450</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1710497218450</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -356,7 +519,8 @@
     <MESSAGE value="优化ui界面" />
     <MESSAGE value="增加界面窗口ICON图标显示" />
     <MESSAGE value="增加界面窗口ICON图标" />
-    <option name="LAST_COMMIT_MESSAGE" value="增加界面窗口ICON图标" />
+    <MESSAGE value="12" />
+    <option name="LAST_COMMIT_MESSAGE" value="12" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
